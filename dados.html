@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interatividade do Chat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <body>
+
+        <div class="container my-5 text-center">
+            <h3 class="display-3">Bem-vindo(a) à área exclusiva para sócios!</h3>
+
+            <!-- Seção de Interatividade -->
+            <div class="interatividade">
+                <h2 class="text-center">Interatividade no Chat</h2>
+                <p>Aproveite nosso chat interativo para se envolver com conteúdos, jogos e competições!</p>
+                <p class="destaque">A robótica não é apenas o futuro, mas também o presente. Veja como essa tecnologia
+                    está moldando nossa realidade!</p>
+                <p>Você sabia que a robótica está revolucionando a indústria e a vida cotidiana? Aqui estão alguns dados
+                    interessantes:</p>
+                <ul class="list-unstyled">
+                    <li><strong>70%</strong> das empresas estão adotando tecnologias de automação, incluindo robótica,
+                        para melhorar a eficiência.</li>
+                    <li><strong>4,5 milhões</strong> de novos empregos em robótica estão previstos até 2025, segundo a
+                        McKinsey.</li>
+                    <li><strong>85%</strong> dos líderes de negócios acreditam que a robótica irá criar novos modelos de
+                        negócios e aumentar a competitividade.</li>
+                    <li><strong>90%</strong> dos fabricantes acreditam que a robótica é essencial para a transformação
+                        digital de suas empresas.</li>
+                </ul>
+
+                <!-- Gráficos para ilustrar dados -->
+                <div class="grafico">
+                    <h5>Tendências na Adoção de Robótica</h5>
+                    <img src="./images/adocao_robotica_setores.png" alt="Gráfico de Adoção de Robótica">
+                    <p>O gráfico acima mostra o aumento na adoção de robótica em diferentes setores, destacando a sua
+                        importância crescente no mundo dos negócios.</p>
+                </div>
+
+                <div class="row">
+                    <!-- Card para Jogos -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Jogos Interativos</h5>
+                                <p class="card-text">Participe de jogos que estimulam o aprendizado e a diversão!
+                                    Experimente nossos desafios.</p>
+                                <a href="#" class="btn btn-primary">Jogar Agora</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card para Conteúdos -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Conteúdos Exclusivos</h5>
+                                <p class="card-text">Acesse artigos, vídeos e tutoriais sobre robótica, programação e
+                                    tecnologias emergentes.</p>
+                                <a href="#" class="btn btn-primary">Explorar Conteúdos</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card para Competições -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Competições</h5>
+                                <p class="card-text">Entre em competições e mostre suas habilidades em
+                                    robótica e programação!</p>
+                                <a href="#" class="btn btn-primary">Participar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <style>
+            /* Estilos para a seção de interatividade */
+            body {
+                background-color: #f8f9fa;
+                /* Cor de fundo suave */
+            }
+
+            .interatividade {
+                background-color: #0b0035;
+                /* Fundo escuro */
+                color: white;
+                /* Texto branco */
+                border-radius: 0.5rem;
+                padding: 3rem;
+                /* Aumentando o padding */
+                margin-top: 2rem;
+            }
+
+            .interatividade h2 {
+                margin-bottom: 1rem;
+                font-size: 2.5rem;
+                /* Aumentando o tamanho do título */
+                text-align: center;
+                /* Centralizando o título */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+                /* Sombra para destaque */
+            }
+
+            .interatividade p {
+                margin-bottom: 1.5rem;
+                font-size: 1.125rem;
+                /* Tamanho do parágrafo */
+            }
+
+            .interatividade ul {
+                margin: 1.5rem 0;
+                /* Margem superior e inferior */
+                padding-left: 1.5rem;
+                /* Indentação */
+            }
+
+            .card {
+                border: none;
+                box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+                /* Sombra suave */
+                background-color: #ffffff;
+                /* Fundo branco */
+                transition: transform 0.2s;
+                /* Efeito de transição ao passar o mouse */
+            }
+
+            .card:hover {
+                transform: translateY(-5px);
+                /* Elevação ao passar o mouse */
+            }
+
+            .card-title {
+                font-size: 1.5rem;
+                /* Tamanho do título do card */
+                color: #0b0035;
+                /* Cor do título */
+            }
+
+            .card-text {
+                font-size: 1rem;
+                /* Tamanho do texto do card */
+            }
+
+            .btn-primary {
+                background-color: #0b0035;
+                /* Cor do botão */
+                border: none;
+                /* Sem borda */
+            }
+
+            /* Estilo para gráficos */
+            .grafico {
+                margin: 2rem 0;
+                /* Margens para o gráfico */
+                text-align: center;
+            }
+
+            .grafico img {
+                max-width: 100%;
+                /* Gráficos responsivos */
+                height: auto;
+            }
+
+            .destaque {
+                margin: 1.5rem 0;
+                /* Margens para o destaque */
+                font-weight: bold;
+                /* Texto em negrito */
+                font-size: 1.2rem;
+                /* Tamanho do texto do destaque */
+                color: #ffc107;
+                /* Cor do destaque */
+            }
+        </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
+        <script src="./js/acesso.js"></script>
+    </body>
+
+</html>
